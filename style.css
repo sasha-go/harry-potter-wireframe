@@ -1,0 +1,25 @@
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+  
+  
+section li {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+  
+fieldset {
+    width:65%;
+    padding: 10px 30px 30px;
+    margin:0 auto;
+    background:rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+  
+  button {
+    border-radius: 5px;
+    box-align: center;
+      margin: 0 auto;
+}
