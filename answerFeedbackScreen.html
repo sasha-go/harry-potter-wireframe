@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 
-  <body>
-    <main role="main" class="container">
-    <header>
-      <h1>Harry Potter Trivia</h1>
-      <section class="questionAndScore">
-        <ul>
-          <li>Question:
-            <span class="qNum">0 out of </span>10</li>
+<body>
+	<main role="main" class="container">
+		<header>
+			<h1>Harry Potter Trivia</h1>
+			<section class="questionAndScore">
+				<ul>
+					<li>Question:
+						<span class="qNum">0 out of </span>10</li>
           <li>Score:
             <span class="score"></span>0</li>
           </li>
@@ -16,13 +16,35 @@
       </section>
     </header>
 
+<!-- Incorrect Feedback (Once JS is added, it will display only the Incorrect or Correct Screen -->
+
     <section role="region" class="quizBox">
-      <form class="feedbackScreen">
+      <form class="wrongFeedbackScreen">
         <fieldset>
           <h2>Blast, that's not right! 100 points from Gryffindor</h2>
-           <button type="button" class="nextButton">Next</button>
+          <a href="quizResults.html">
+           <button type="button" class="nextButton">Next (Go to 
+             Results Page for Wireframe)
+           </button>
+          </a>
         </fieldset>
       </form>
+    </section>
+
+  <div></div>
+
+<!-- Correct Feedback -->
+		<section role="region" class="quizBox">
+			<form class="rightFeedbackScreen">
+				<fieldset>
+					<h2>Correct! 100 points for Gryffindor</h2>
+					<a href="quizResults.html">
+						<button type="button" class="nextButton">Next (Go to 
+		             Results Page for Wireframe)
+		        </button>
+		      </a>
+		    </fieldset>
+		  </form>
     </section>
 
     <script
